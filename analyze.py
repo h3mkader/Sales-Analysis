@@ -6,6 +6,7 @@ import pandas as pd
 # Load the data from the CSV file.
 data = pd.read_csv("data.csv")
 
+print("Welcome to my project")
 # Show the first few rows so we can see what the data looks like.
 print("First rows of the data:")
 print(data.head())
